@@ -8,24 +8,23 @@ namespace RPSLS
 {
     internal class Game
     {
-
+        bool gameOver = false;
         
         public void Run()
         {
             string welcome = "Welcome To RPSLS";
             Console.WriteLine(welcome);
 
+            Console.WriteLine("Please Choose Number Of Players");
+            int numberOfPlayers = Convert.ToInt32(Console.ReadLine());
+            
             
         }
 
-        string[] gestures = { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
 
-        List<string> gesturesRange = new List<string>(gestures);
 
-        public Game(string[] gestures, List<string> gesturesRange)
-        {
-            this.gestures = gestures;
-            this.gesturesRange = gesturesRange;
-        }
+        
+
+         
     }
 }

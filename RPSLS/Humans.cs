@@ -6,21 +6,8 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    internal class Humans
+    class Humans : Player
     {
-        public string name;
-        public int health;
-
-
-        public Humans(string nameThatWasPassedIn, int health)
-        {
-            name = nameThatWasPassedIn;
-            this.health = health;
-        }
-
-        public Gestures(int[] number, string gesture)
-        {
-
-        }
+      public string 
     }
 }
